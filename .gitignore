@@ -1,0 +1,46 @@
+# OS/editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Native build artifacts
+*.so
+*.o
+*.egg-info/
+build/
+dist/
+
+# Local secrets and environment files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+.netrc
+
+# Data, logs, and training artifacts
+/data/
+/outputs/
+/tensorboard_log/
+/wandb/
+/checkpoints/
+/logs/
+*.log
+*.err
+*.pt
+*.pth
+*.ckpt
+*.safetensors
